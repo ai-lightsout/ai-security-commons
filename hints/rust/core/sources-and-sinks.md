@@ -1,8 +1,8 @@
 # Rust — Core (language & standard library) sources and sinks
 
 Framework-independent hints for any Rust code. Web frameworks (Axum, Actix Web,
-Rocket — all built on `hyper`/`tokio`) add their own request entry points; a
-Rust framework file is not in this repo yet (see the [coverage index](../../README.md)).
+Rocket) add their own request entry points — see
+[`../axum/sources-and-sinks.md`](../axum/sources-and-sinks.md) for Axum specifics.
 
 ## Sources — untrusted input entering a Rust process
 
